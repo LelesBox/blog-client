@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+        }
+
+        .d {
+            height: 100%;
+            width: 100%;
+            background: fixed #6ede31 url("1.jpg") 0px 0px no-repeat;
+            /*background-size: cover;*/
+            background-size: contain;
+        }
+
+    </style>
+</head>
+<body>
+<!--总结,当容器固定比例时,恰好和图片比例一致,可用image标签赋予100%-->
+<!---->
+<div style="height: 50%;width: 50%;">
+    <div class="d" style="">
+    </div>
+</div>
+<div style="height: 50%;width: 50%">
+    <img src="1.jpg" alt="" style="width: 100%;height: 100%">
+</div>
+</body>
+</html>
